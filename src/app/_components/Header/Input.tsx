@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import { ArrowRight, SearchIcon } from "lucide-react";
 import { Input } from "@/components/ui/input";

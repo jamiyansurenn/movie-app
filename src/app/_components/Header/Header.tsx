@@ -1,9 +1,6 @@
-import { PopoverDemo } from "@/app/_components/shadcn/popoverb";
-
+import { PopoverDemo } from "@/app/_components/shadcn/popover";
 import { ModeToggle } from "@/app/_components/shadcn/theme-toggle";
-
 import InputS from "./Input";
-
 import Link from "next/link";
 
 export const Header = () => {

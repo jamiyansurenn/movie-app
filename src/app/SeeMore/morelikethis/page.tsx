@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { TOKEN } from "@/app/utils/constants";
-import { MovieTypes } from "@/app/utils/type";
+import TOKEN from "@/app/utils/constants";
+import { MovieTypes } from "@/app/utils/types";
 import {
   Pagination,
   PaginationContent,
@@ -10,7 +10,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@/components/ui/pagination";
+} from "@/components/ui/ui/pagination";
 export default async function page5({
   params: { morelike },
 }: {

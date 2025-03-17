@@ -1,7 +1,7 @@
 
 import React from "react";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/ui/toggle-group";
-import { GenreType, PageType } from "@/app/utils/type";
+import { GenreType, PageType } from "@/app/utils/types";
 import Link from "next/link";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";

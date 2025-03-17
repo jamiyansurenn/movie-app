@@ -1,5 +1,4 @@
-// filepath: /Users/24LP6563/movie-app/src/types/type.ts
-export type Movie = {
+export type MovieTypes = {
     adult: boolean;
     backdrop_path: string;
     genre_ids: number[];

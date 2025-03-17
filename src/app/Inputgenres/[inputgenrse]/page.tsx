@@ -1,5 +1,5 @@
 import Option, { BaseURL, ConImg } from "@/app/utils/constants";
-import { MoviTypes } from "@/app/utils/type";
+import { MoviTypes } from "@/app/utils/types";
 import Image from "next/image";
 import Link from "next/link";
 
